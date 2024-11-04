@@ -28,11 +28,11 @@ export default {
       cart: [],
     };
   },
-  methods: {
-    uptadeCart(id) {
-      this.cart.push(id);
+    methods: {
+      uptadeCart(id) {
+        this.cart.push(id);
+      },
     },
-  },
 };
 </script>
 
